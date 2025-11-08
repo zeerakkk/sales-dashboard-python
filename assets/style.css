@@ -1,0 +1,59 @@
+/* =========================
+   General Styling
+========================= */
+body {
+  background-color: #f8f9fa; /* subtle gray background */
+  font-family: "Segoe UI", Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+/* =========================
+   Card Hover Animation
+========================= */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   Graph Hover Effect
+========================= */
+.js-plotly-plot {
+  transition: transform 0.3s ease;
+}
+
+.js-plotly-plot:hover {
+  transform: scale(1.02);
+}
+
+/* =========================
+   Buttons Hover Animation
+========================= */
+button, .btn {
+  transition: all 0.25s ease;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.1);
+  background-color: #28a745 !important;
+  color: white !important;
+  box-shadow: 0 0 12px rgba(40, 167, 69, 0.5);
+}
+
+/* =========================
+   Header Icon Hover Effect
+========================= */
+h1 {
+  font-size: 2.2rem;
+  transition: transform 0.4s ease, color 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.08);
+  color: #007bff;
+}
